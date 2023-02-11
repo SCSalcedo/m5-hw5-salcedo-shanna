@@ -1,0 +1,101 @@
+/*==================
+
+Universal styling
+
+====================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+body {
+    background: url(../images/skulls.svg);
+    margin: 0 ;
+}
+
+header{
+    width: 100%;
+    padding: 30px 30px;
+    height: 10px;
+    background-color: rgb(151, 86, 241);
+    border-bottom: 3px solid black;
+}
+
+header > a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+ 
+}
+
+header > nav {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+
+}
+
+.container{
+    background: rgb(133, 239, 144);
+    max-width: 600px;
+    margin-left: 30px;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+
+header > nav > a{ 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 5px ;
+    padding: 10px;
+    background: rgb(235, 253, 245);
+    text-decoration: none;
+    box-shadow: 8px 8px 10px; 
+     
+}
+
+
+.about-me img {
+    float: left;
+    margin: 10px 20px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 10px 10px 10px ;
+}
+
+aside {
+    background-color: rgb(235, 253, 245);
+    padding: 40px;
+    margin: 10px;
+    max-width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 10px 10px 10px;
+}
+
+aside > nav > a{
+    text-decoration: none;
+
+}
+aside img{
+    margin: 0 5px;
+    box-shadow: 2px 2px 10px;
+    color: rgb(137, 67, 234);
+}
+
+
+footer{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(235, 253, 245);
+    border-top: 3px solid black;
+    
+}
